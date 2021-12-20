@@ -1,0 +1,28 @@
+.contacts {
+  background: url("../../assets/bgcontacts.jpg") no-repeat center/cover;
+  color: white;
+}
+
+.contacts__container__title {
+  padding: 30px 0;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.contacts__container__info {
+  padding-bottom: 18px;
+}
+
+.contacts__container__block__title {
+  padding-bottom: 7px;
+}
+
+.contacts__container__block__title__header {
+  padding-left: 5px;
+}
+
+.contacts__container__block__info {
+  padding-bottom: 39px;
+  padding-left: 30px;
+}
+/*# sourceMappingURL=contacts.component.css.map */

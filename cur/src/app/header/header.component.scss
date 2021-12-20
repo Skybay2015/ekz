@@ -1,0 +1,47 @@
+.header {
+  &__name {
+    background: #c82f38;
+    padding: 10px 0;
+    &__text {
+      font-size: 24px;
+      line-height: 28px;
+      color: #ffffff;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &__navbar {
+    background: black;
+    height: 100px;
+    &__wrapper {
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__item {
+        // padding: 0 40px 0 0;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      li:not(:last-child) {
+        padding: 0 40px 0 0;
+      }
+    }
+    &__logo {
+      width: 90px;
+      height: 64px;
+    }
+  }
+}
+
+.wrapper {
+  width: 1180px;
+  max-width: 100%;
+  margin: 0 auto;
+}

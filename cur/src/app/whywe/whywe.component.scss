@@ -1,0 +1,50 @@
+
+.why__we {
+    &__img {
+       width: 100%;
+       height: 1080px;
+    }
+    &__info {
+       padding-top: 30px;
+       &__header {
+          font-size: 48px;
+          line-height: 56px;
+          color: #000000;
+       }
+       &__blocks {
+          padding-top: 38px;
+          padding-bottom: 54px;
+          display: flex;
+          justify-content: space-between;
+          &__item {
+             display: flex;
+             justify-content: space-between;
+             &__img {
+                width: 70px;
+                height: 70px;
+                padding-right: 14px;
+             }
+             &__title {
+                padding-bottom: 8px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 16px;
+                color: #000000;
+             }
+             &__info {
+                font-size: 14px;
+                line-height: 16px;
+                color: #717171;
+             }
+          }
+       }
+    }
+ }
+ 
+
+.wrapper {
+   width: 1180px;
+   max-width: 100%;
+   margin: 0 auto;
+}
+  

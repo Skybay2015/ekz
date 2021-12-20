@@ -1,0 +1,61 @@
+.header__name {
+  background: #c82f38;
+  padding: 10px 0;
+}
+
+.header__name__text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__navbar {
+  background: black;
+  height: 100px;
+}
+
+.header__navbar__wrapper {
+  padding-top: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__navbar__list__item {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header__navbar__list li:not(:last-child) {
+  padding: 0 40px 0 0;
+}
+
+.header__navbar__logo {
+  width: 90px;
+  height: 64px;
+}
+
+.wrapper {
+  width: 1180px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=header.component.css.map */

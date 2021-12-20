@@ -1,0 +1,21 @@
+.footer {
+  height: 100px;
+  background: #c82f38;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  &__container {
+    padding: 38px 0;
+    display: flex;
+    justify-content: space-between;
+    &__right {
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        li:not(:last-child) {
+          padding: 0 75px 0 0;
+        }
+      }
+    }
+  }
+}
